@@ -48,6 +48,7 @@
                       @if($errors->has('content'))
                       <span class="text-danger">{{ $errors->first('content') }}</span>
                       @endif
+
                     </div>
                   </div>
                   <div class="form-group row mb-0">
